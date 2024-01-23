@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+nav {
+    background-color: #3f51b5; /* Indigo color */
+}
+
+.nav-wrapper {
+    padding: 0 20px;
+}
+
+.nav-wrapper ul {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-wrapper ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-wrapper ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+}
+
+.blue.map {
+    /* Add your background properties for the map here */
+    background-color: #2196f3; /* Blue color */
+    color: #fff; /* White text */
+}
+
+.tabs-section {
+    background-color: #fff; /* White background for tabs section */
+}
+
+.tabs.indigo.lighten-5 li a {
+    color: #3f51b5; /* Indigo color for tab text */
+}
+
+.tabs.indigo.lighten-5 .indicator {
+    background-color: #3f51b5; /* Indigo color for tab indicator */
+}
+
+.side-bar {
+    background-color: #fff; /* White background for sidebar */
+    border-left: 1px solid #e0e0e0; /* Light gray border on the left */
+}
+
+.search-nav {
+    border-bottom: 1px solid #e0e0e0; /* Light gray border at the bottom of search navigation */
+}
+
+.collection .collection-item.avatar {
+    padding-left: 72px;
+    position: relative;
+}
+
+.btn-comando {
+    background-color: #3f51b5; /* Indigo color for the button */
+}
+
+.btn-comando a {
+    color: #fff; /* White text for the button */
+}
+
+.btn-comando a:hover {
+    background-color: #1a237e; /* Darker indigo color on hover */
+}
